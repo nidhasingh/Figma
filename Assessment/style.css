@@ -1,0 +1,1067 @@
+                                                                *,
+                                                                *::before,
+                                                                *::after {
+                                                                    box-sizing: border-box;
+                                                                    -webkit-box-sizing: border-box;
+                                                                }
+                                                                
+                                                                body {
+                                                                    font-family: 'Inter', sans-serif;
+                                                                    font-weight: 700;
+                                                                    color: white;
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    text-decoration: none;
+                                                                }
+                                                                
+                                                                .bg-gradient {
+                                                                    background-image: linear-gradient(90deg, rgb(223, 12, 195), rgb(79, 10, 119));
+                                                                }
+                                                                
+                                                                a {
+                                                                    color: white;
+                                                                    text-decoration: none;
+                                                                }
+                                                                
+                                                                .container {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                    flex-wrap: wrap;
+                                                                    padding: 5px;
+                                                                    justify-content: space-between;
+                                                                }
+                                                                
+                                                                .nav {
+                                                                    text-align: center;
+                                                                    padding: 30px 10px;
+                                                                    justify-content: space-evenly;
+                                                                    font-size: 16px;
+                                                                }
+                                                                
+                                                                .nav a {
+                                                                    padding: 7px;
+                                                                    border: none;
+                                                                }
+                                                                
+                                                                .nav>input {
+                                                                    border-radius: 20px;
+                                                                    font-size: 14px;
+                                                                    border-color: transparent;
+                                                                    line-height: 30px;
+                                                                    outline: none;
+                                                                }
+                                                                
+                                                                .nav a:hover {
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .nav button {
+                                                                    color: red;
+                                                                    border: none;
+                                                                    border-color: transparent;
+                                                                    border-radius: 20px;
+                                                                    line-height: 34px;
+                                                                    font-size: 12px;
+                                                                    padding: 0 12px;
+                                                                    outline: none;
+                                                                    cursor: pointer;
+                                                                }
+                                                                
+                                                                .collapse {
+                                                                    padding-top: 20px;
+                                                                    padding-right: 0px;
+                                                                    /* padding-left: 60px; */
+                                                                    display: none;
+                                                                }
+                                                                
+                                                                .collapse>div {
+                                                                    background-color: white;
+                                                                    width: 20px;
+                                                                    height: 5px;
+                                                                    margin: 5px 0px;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width: 600px) {
+                                                                    .nav {
+                                                                        display: none;
+                                                                    }
+                                                                    .collapse {
+                                                                        display: block;
+                                                                    }
+                                                                }
+                                                                /* mobile-content */
+                                                                
+                                                                .mobile-content {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: column;
+                                                                    margin: auto;
+                                                                    justify-content: space-around;
+                                                                    align-items: center;
+                                                                }
+                                                                
+                                                                .mobile-content .mob {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    padding: 2px;
+                                                                    flex-wrap: wrap;
+                                                                    text-align: center;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                .mobile-content .mob {
+                                                                    margin: 0px 50px;
+                                                                }
+                                                                
+                                                                .mobpic>img {
+                                                                    align-content: center;
+                                                                }
+                                                                
+                                                                .try button {
+                                                                    border-radius: 25px;
+                                                                    text-align: center;
+                                                                    border: none;
+                                                                    line-height: 25px;
+                                                                    font-size: 15px;
+                                                                    margin: 0px 50px;
+                                                                    padding: 10px 50px;
+                                                                    background-color: rgb(83, 140, 245);
+                                                                    color: white;
+                                                                    cursor: pointer;
+                                                                }
+                                                                /* desktop */
+                                                                
+                                                                .desktop-content {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: row;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                .desktop-content .para {
+                                                                    display: flex;
+                                                                    flex-flow: column;
+                                                                    justify-content: center;
+                                                                    box-sizing: border-box;
+                                                                    align-content: center;
+                                                                    width: 30%
+                                                                }
+                                                                
+                                                                .para>h1 {
+                                                                    font-family: Arial, sans-serif;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .para>h2 {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    font-style: bold;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .try1 button {
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    border-radius: 20px;
+                                                                    border: none;
+                                                                    font-size: 15px;
+                                                                    padding: 10px 40px;
+                                                                    background-color: white;
+                                                                    color: rgb(83, 140, 245);
+                                                                    line-height: 25px;
+                                                                }
+                                                                
+                                                                .try1 button:hover {
+                                                                    cursor: pointer;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .desktop-content {
+                                                                        display: none;
+                                                                    }
+                                                                    .mobile-content {
+                                                                        display: flex;
+                                                                    }
+                                                                    .mobpic .res {
+                                                                        width: 100%;
+                                                                        height: auto;
+                                                                        text-align: center;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width:601px) {
+                                                                    .desktop-content {
+                                                                        display: flex;
+                                                                        flex-flow: row;
+                                                                        box-sizing: border-box;
+                                                                        width: auto;
+                                                                    }
+                                                                    .desk {
+                                                                        width: 65%;
+                                                                    }
+                                                                    .responsive {
+                                                                        display: inline-flex;
+                                                                        width: 100%;
+                                                                        height: auto;
+                                                                    }
+                                                                    .desk .para {
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .mobile-content {
+                                                                        display: none;
+                                                                    }
+                                                                }
+                                                                /* fingertips section */
+                                                                
+                                                                .head {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: column;
+                                                                    color: black;
+                                                                    text-align: center;
+                                                                    justify-content: space-evenly;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                .head h2 {
+                                                                    font-weight: 500;
+                                                                }
+                                                                /* section */
+                                                                
+                                                                .sets {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    box-sizing: border-box;
+                                                                    text-align: center;
+                                                                    justify-items: center;
+                                                                }
+                                                                
+                                                                .sets .item1 {
+                                                                    color: black;
+                                                                    display: inline-block;
+                                                                }
+                                                                
+                                                                .item1>h4 {
+                                                                    display: inline-block;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    position: relative;
+                                                                }
+                                                                
+                                                                .item1 span img {
+                                                                    vertical-align: middle;
+                                                                    text-align: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .sets .item2 {
+                                                                    color: black;
+                                                                    display: inline-block;
+                                                                }
+                                                                
+                                                                .item2 span img {
+                                                                    vertical-align: middle;
+                                                                    text-align: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .item2>h4 {
+                                                                    display: inline-block;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    position: relative;
+                                                                }
+                                                                
+                                                                .sets .item3 {
+                                                                    color: black;
+                                                                    display: inline-block;
+                                                                }
+                                                                
+                                                                .item3 span img {
+                                                                    vertical-align: middle;
+                                                                    text-align: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .item3>h4 {
+                                                                    display: inline-block;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    position: relative;
+                                                                }
+                                                                
+                                                                .sets .item3 {
+                                                                    color: black;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .sets {
+                                                                        display: flex;
+                                                                        flex-flow: column;
+                                                                        justify-content: space-between;
+                                                                        justify-content: center;
+                                                                        text-align: center;
+                                                                        margin: 0px 100px;
+                                                                        /* width: 50%; */
+                                                                        box-sizing: border-box;
+                                                                    }
+                                                                    .item1>p {
+                                                                        font-size: 11px;
+                                                                    }
+                                                                    .item2>p {
+                                                                        font-size: 11px;
+                                                                    }
+                                                                    .item3>p {
+                                                                        font-size: 11px;
+                                                                    }
+                                                                    .item1>h4 {
+                                                                        font-style: bold;
+                                                                        font-size: 15px;
+                                                                    }
+                                                                    .item2>h4 {
+                                                                        font-style: bold;
+                                                                        font-size: 15px;
+                                                                    }
+                                                                    .item3>h4 {
+                                                                        font-style: bold;
+                                                                        font-size: 15px;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width:601px) {
+                                                                    .sets {
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        flex-flow: row;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .item1 {
+                                                                        width: 25%;
+                                                                        display: inline-block;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .item2 {
+                                                                        width: 25%;
+                                                                        display: inline-block;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .item3 {
+                                                                        width: 25%;
+                                                                        display: inline-block;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .head>h2 {
+                                                                        font-size: 30px;
+                                                                        font-size: bold;
+                                                                    }
+                                                                    .head>h6 {
+                                                                        font-size: 12px;
+                                                                    }
+                                                                    .head>h5 {
+                                                                        font-size: 15px;
+                                                                        font-style: bold;
+                                                                    }
+                                                                    .item1>h4 {
+                                                                        font-style: bold;
+                                                                        display: inline-block;
+                                                                    }
+                                                                    .item1>p {
+                                                                        font-size: 13px;
+                                                                        padding: 0px 20px;
+                                                                    }
+                                                                    .item2>h4 {
+                                                                        font-style: bold;
+                                                                        display: inline-block;
+                                                                    }
+                                                                    .item2>p {
+                                                                        font-size: 13px;
+                                                                        padding: 0px 20px;
+                                                                    }
+                                                                    .item3>h4 {
+                                                                        font-style: bold;
+                                                                        display: inline-block;
+                                                                    }
+                                                                    .item3>p {
+                                                                        font-size: 13px;
+                                                                        padding: 0px 20px;
+                                                                    }
+                                                                    .item1>h4>img {
+                                                                        height: 40px;
+                                                                        width: 40px;
+                                                                    }
+                                                                    .item2>h4>img {
+                                                                        height: 40px;
+                                                                        width: 40px;
+                                                                    }
+                                                                    .item3>h4>img {
+                                                                        height: 40px;
+                                                                        width: 40px;
+                                                                    }
+                                                                }
+                                                                /* lightening fast */
+                                                                
+                                                                .light {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    color: black;
+                                                                    margin: auto;
+                                                                    justify-content: space-evenly;
+                                                                    text-align: center;
+                                                                    padding: 2px;
+                                                                }
+                                                                
+                                                                .lightening>button {
+                                                                    text-align: center;
+                                                                    border-radius: 20px;
+                                                                    border-style: none;
+                                                                    border-color: none;
+                                                                    font-size: 13px;
+                                                                    padding: 10px 45px;
+                                                                    background-color: rgb(83, 140, 245);
+                                                                    color: white;
+                                                                    line-height: 25px;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .img-res {
+                                                                        height: auto;
+                                                                        width: 100%;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width:601px) {
+                                                                    .light {
+                                                                        width: 50%;
+                                                                    }
+                                                                    .lightening {
+                                                                        justify-content: center;
+                                                                        text-align: center;
+                                                                        align-items: center;
+                                                                    }
+                                                                    .img-res {
+                                                                        height: auto;
+                                                                        width: 100%
+                                                                    }
+                                                                    .lightening>button {
+                                                                        text-align: center;
+                                                                        border-radius: 20px;
+                                                                        font-size: 15px;
+                                                                        padding: 10px 30px;
+                                                                        background-color: rgb(83, 140, 245);
+                                                                        color: white;
+                                                                    }
+                                                                }
+                                                                /* mobile-email */
+                                                                
+                                                                .gradient {
+                                                                    background-image: linear-gradient(90deg, rgb(223, 12, 195), rgb(79, 10, 119));
+                                                                }
+                                                                
+                                                                .mobile-email {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: column;
+                                                                    justify-content: space-evenly;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    padding: 3px;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                .subscribe1>input {
+                                                                    border-radius: 20px;
+                                                                    font-size: 12px;
+                                                                    padding: 5px 20px;
+                                                                    border-color: transparent;
+                                                                }
+                                                                
+                                                                .subscribe1 .sub {
+                                                                    border-radius: 20px;
+                                                                    padding: 3px 73px;
+                                                                    font-size: 12px;
+                                                                    color: white;
+                                                                    background-color: rgb(233, 36, 200);
+                                                                    border-color: transparent;
+                                                                }
+                                                                
+                                                                @media only screen and (min-width:601px) {
+                                                                    .mobile-email {
+                                                                        display: none;
+                                                                    }
+                                                                }
+                                                                /* desktop-email */
+                                                                
+                                                                .gradient1 {
+                                                                    background-image: linear-gradient(90deg, rgb(223, 12, 195), rgb(79, 10, 119));
+                                                                }
+                                                                
+                                                                .desktop-email {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: column;
+                                                                    justify-content: space-around;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                    box-sizing: border-box;
+                                                                    margin: auto;
+                                                                    padding: 4px;
+                                                                }
+                                                                
+                                                                .subscribe2>input {
+                                                                    border-radius: 20px;
+                                                                    font-size: 15px;
+                                                                    height: 35px;
+                                                                    border-color: transparent;
+                                                                }
+                                                                
+                                                                .subscribe2 .sub1 {
+                                                                    border-radius: 20px;
+                                                                    font-size: 15px;
+                                                                    height: 35px;
+                                                                    width: 200px;
+                                                                    color: white;
+                                                                    background-color: rgb(233, 36, 200);
+                                                                    border-color: transparent;
+                                                                }
+                                                                
+                                                                .prototyping>h3 {
+                                                                    font-weight: 500;
+                                                                }
+                                                                
+                                                                .subscribe2>h5 {
+                                                                    font-weight: 500;
+                                                                }
+                                                                
+                                                                .prototyping>h1 {
+                                                                    font-size: 35px;
+                                                                    font-weight: 500;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .desktop-email {
+                                                                        display: none;
+                                                                    }
+                                                                    .newsletter>h2 {
+                                                                        font-weight: 500;
+                                                                        font-style: bold;
+                                                                    }
+                                                                    .subscribe1>h6 {
+                                                                        font-weight: 500;
+                                                                    }
+                                                                }
+                                                                /*partner  */
+                                                                
+                                                                .partner-heading {
+                                                                    color: black;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .partners {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    justify-items: center;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .space {
+                                                                    margin: 0px 50px;
+                                                                }
+                                                                
+                                                                .partners>.img-logo {
+                                                                    width: 300px;
+                                                                    padding: 20px;
+                                                                    text-align: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .partners1 {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    justify-items: center;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .space1 {
+                                                                    margin: 0px 50px;
+                                                                }
+                                                                
+                                                                .partners1>.img-logo1 {
+                                                                    width: 300px;
+                                                                    padding: 20px;
+                                                                    text-align: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .partner {
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .partner>button {
+                                                                    text-align: center;
+                                                                    border-radius: 20px;
+                                                                    line-height: 25px;
+                                                                    border: none;
+                                                                    font-size: 13px;
+                                                                    padding: 10px 35px;
+                                                                    background-color: rgb(83, 140, 245);
+                                                                    color: white;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .space1 {
+                                                                        display: none;
+                                                                    }
+                                                                }
+                                                                /* testimonals */
+                                                                
+                                                                .testimonials {
+                                                                    color: black;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .testimonials .man {
+                                                                    padding: 0px 30px;
+                                                                    margin: 0px 30px;
+                                                                }
+                                                                
+                                                                .testimonials>button {
+                                                                    border-radius: 20px;
+                                                                    border: none;
+                                                                    font-size: 15px;
+                                                                    line-height: 22px;
+                                                                    padding: 10px 30px;
+                                                                    background-color: rgb(83, 140, 245);
+                                                                    color: white;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .testimonials .man {
+                                                                        display: none;
+                                                                    }
+                                                                    .testimonials>button {
+                                                                        border-radius: 20px;
+                                                                        border: none;
+                                                                        font-size: 10px;
+                                                                        line-height: 25px;
+                                                                        padding: 10px 35px;
+                                                                        background-color: rgb(83, 140, 245);
+                                                                        color: white;
+                                                                        text-align: center;
+                                                                        margin: 0px 0px;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width:601px) {
+                                                                    .testimonials .woman {
+                                                                        display: none;
+                                                                    }
+                                                                }
+                                                                /* cash  desktop*/
+                                                                
+                                                                .cash-desktop {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    margin: 0px 80px;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .card {
+                                                                    width: 300px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    border: 1px solid rgb(231, 214, 214);
+                                                                    border-radius: 5px;
+                                                                    color: black;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .card .order {
+                                                                    width: 200px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .numbers {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                .zero {
+                                                                    font-size: 30px;
+                                                                }
+                                                                
+                                                                .order>button {
+                                                                    border-radius: 20px;
+                                                                    border: none;
+                                                                    font-size: 10px;
+                                                                    padding: 10px 20px;
+                                                                    background-color: rgb(83, 140, 245);
+                                                                    color: white;
+                                                                    text-align: center;
+                                                                    margin: 0px 0px;
+                                                                }
+                                                                
+                                                                .orderr>button {
+                                                                    border-radius: 20px;
+                                                                    border: none;
+                                                                    font-size: 10px;
+                                                                    padding: 10px 20px;
+                                                                    background-color: white;
+                                                                    color: rgb(83, 140, 245);
+                                                                    text-align: center;
+                                                                    margin: 0px 0px;
+                                                                }
+                                                                
+                                                                .card1 {
+                                                                    width: 300px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    color: black;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .card1 .order {
+                                                                    width: 200px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .card1 .orderr {
+                                                                    width: 200px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .layer {
+                                                                    background-image: linear-gradient(90deg, rgb(223, 12, 195), rgb(79, 10, 119));
+                                                                    width: 300px;
+                                                                    margin: 10px;
+                                                                    border-radius: 5px;
+                                                                    border: 1px solid rgb(231, 214, 214);
+                                                                }
+                                                                /* cash-mobile */
+                                                                
+                                                                .cash-mobile {
+                                                                    display: flex;
+                                                                    flex-flow: column;
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                
+                                                                .card {
+                                                                    width: 300px;
+                                                                    margin: 10px;
+                                                                    border-radius: 5px;
+                                                                    padding: 10px;
+                                                                    border: 1px solid rgb(231, 214, 214);
+                                                                    color: black;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .card .order {
+                                                                    width: 200px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .numbers {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                .zero {
+                                                                    font-size: 30px;
+                                                                }
+                                                                
+                                                                .order>button {
+                                                                    border-radius: 20px;
+                                                                    border: none;
+                                                                    font-size: 10px;
+                                                                    padding: 10px 20px;
+                                                                    background-color: rgb(83, 140, 245);
+                                                                    color: white;
+                                                                    text-align: center;
+                                                                    margin: 0px 0px;
+                                                                }
+                                                                
+                                                                .orderr>button {
+                                                                    border-radius: 20px;
+                                                                    border: none;
+                                                                    font-size: 10px;
+                                                                    padding: 10px 20px;
+                                                                    background-color: white;
+                                                                    color: rgb(83, 140, 245);
+                                                                    text-align: center;
+                                                                    margin: 0px 0px;
+                                                                }
+                                                                
+                                                                .card1 {
+                                                                    width: 300px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    color: black;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .card1 .order {
+                                                                    width: 200px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .card1 .orderr {
+                                                                    width: 200px;
+                                                                    margin: 10px;
+                                                                    padding: 10px;
+                                                                    justify-content: center;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .layer1 {
+                                                                    background-image: linear-gradient(90deg, rgb(223, 12, 195), rgb(79, 10, 119));
+                                                                    width: 300px;
+                                                                    margin: 10px;
+                                                                    border-radius: 5px;
+                                                                    border: 1px solid rgb(231, 214, 214);
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .cash-desktop {
+                                                                        display: none;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width:601px) {
+                                                                    .cash-mobile {
+                                                                        display: none;
+                                                                    }
+                                                                }
+                                                                /* greypart */
+                                                                
+                                                                .grey {
+                                                                    background-color: rgb(39, 44, 71);
+                                                                    color: white;
+                                                                }
+                                                                
+                                                                .contact {
+                                                                    width: auto;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .contact-us {
+                                                                    background-color: white;
+                                                                    width: 350px;
+                                                                    height: 360px;
+                                                                    margin: 0px 15px;
+                                                                    padding: 40px;
+                                                                    border-radius: 20px;
+                                                                    box-sizing: border-box;
+                                                                    margin-bottom: 5px;
+                                                                }
+                                                                
+                                                                .fname {
+                                                                    width: 100%;
+                                                                    padding: 10px;
+                                                                    box-sizing: border-box;
+                                                                    margin-bottom: 25px;
+                                                                    border-radius: 25px;
+                                                                    background-color: rgb(233, 230, 230);
+                                                                    border-style: none;
+                                                                }
+                                                                
+                                                                .msg {
+                                                                    width: 100%;
+                                                                    padding: 10px;
+                                                                    line-height: 50px;
+                                                                    box-sizing: border-box;
+                                                                    margin-bottom: 25px;
+                                                                    border-radius: 20px;
+                                                                    background-color: rgb(233, 230, 230);
+                                                                    border-style: none;
+                                                                }
+                                                                
+                                                                .contact-us>button {
+                                                                    text-align: left;
+                                                                    font-size: 15px;
+                                                                    border-radius: 20px;
+                                                                    border-style: none;
+                                                                    padding: 5px 35px;
+                                                                    background-color: rgb(190, 36, 178);
+                                                                    color: white;
+                                                                    border-color: rgb(190, 36, 178);
+                                                                    cursor: pointer;
+                                                                }
+                                                                
+                                                                .address {
+                                                                    width: 500px;
+                                                                    display: flex;
+                                                                    flex-flow: column;
+                                                                    justify-content: center;
+                                                                    justify-content: space-evenly;
+                                                                }
+                                                                
+                                                                .loc {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .mob {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .maill {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .media {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .media>div {
+                                                                    padding: 0px 20px;
+                                                                }
+                                                                
+                                                                .spacee {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    justify-content: space-evenly;
+                                                                    padding: 5px 5px;
+                                                                }
+                                                                
+                                                                .spacee p {
+                                                                    font-size: 13px;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .spacee {
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        flex-flow: column-reverse;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .address {
+                                                                        width: 250px;
+                                                                        margin-left: 25px;
+                                                                    }
+                                                                    .contact-us {
+                                                                        width: 250px;
+                                                                    }
+                                                                }
+                                                                /* last-section */
+                                                                
+                                                                .last-section {
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .spacee1 {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: row;
+                                                                    justify-content: center;
+                                                                    justify-content: space-evenly;
+                                                                    padding: 5px 5px;
+                                                                }
+                                                                
+                                                                .spacee1 p {
+                                                                    font-size: 13px;
+                                                                }
+                                                                
+                                                                .map-location {
+                                                                    border: 2px solid white;
+                                                                    border-radius: 20px;
+                                                                }
+                                                                
+                                                                .address1 {
+                                                                    width: 250px;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    flex-flow: column;
+                                                                    justify-content: center;
+                                                                    justify-content: space-evenly;
+                                                                }
+                                                                
+                                                                .loc1 {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .mob1 {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .maill1 {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .media1 {
+                                                                    display: flex;
+                                                                    flex-flow: row;
+                                                                }
+                                                                
+                                                                .media1>div {
+                                                                    padding: 0px 20px;
+                                                                }
+                                                                
+                                                                @media only screen and (max-width:600px) {
+                                                                    .spacee1 {
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        flex-flow: column;
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .address1 {
+                                                                        width: 200px;
+                                                                    }
+                                                                    .map-location {
+                                                                        text-align: center;
+                                                                    }
+                                                                    .pages {
+                                                                        text-align: center;
+                                                                    }
+                                                                }
